@@ -6,27 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./bulma.css">
+
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./bulma.css">
     <title>Document</title>
 </head>
 
 <body>
     <div class="card row-custom">
         <div class="card-content">
-            <div class="content">
+            <div class="content" style="height: 500px;">
                 <div class="columns">
                     <div class="column">
-                        <input class="input-custom input is-primary" type="text" placeholder="Primary input">
-                        <br>
-                        <br>
-                        <input class="input-custom input is-primary" type="text" placeholder="Primary input">
-                        <br>
-                        <br>
-                        <button class="button is-primary" style="width: 100% !important;">Primary</button>
+
+                        <div id="renderHtml">
+                            
+                        </div>
+
+                        <!-- <input class="input-custom input is-primary" id="id1" type="text" placeholder="Primary input">
+
+                        <input class="input-custom input is-primary" id="id2" type="text" placeholder="Primary input">
+
+                        <input class="input-custom input is-primary" id="id3" type="text" placeholder="Primary input">
+
+                        <input class="input-custom input is-primary" id="id4" type="text" placeholder="Primary input">
+
+                        <input class="input-custom input is-primary" id="id5" type="text" placeholder="Primary input">
+
+                        <input class="input-custom input is-primary" id="id6" type="text" placeholder="Primary input"> -->
+
+                        <button class="button is-primary" id="boton1" style="width: 100% !important; "
+                            onclick="sendData(); ">Primary</button>
+
+
                     </div>
                     <div class="column">
-                        <input class="input-custom input is-primary"  type="text" placeholder="Primary input">
+                        <input class="input-custom input is-primary" type="text" placeholder="Primary input">
                         <br>
                         <br>
                         <input class="input-custom input is-primary" type="text" placeholder="Primary input">
@@ -50,35 +65,19 @@
     </div>
 
 
-    <!-- <form  action="file:///Users/robertoguzman/Documents/Visual/index2.html" method="post">
-        <ul>
-            <li>
-                <label for="">Nombre</label>
-                <input type="text" id="nombre" name="usuario_nombre" placeholder="Nombre" required>
-            </li>
-
-            <li>
-                <label for="">Email</label>
-                <input type="email" id="email" name="usuario_email" required>
-            </li>
-
-            <li>
-                <label for="">Telefono</label>
-                <input type="number" id="telefono" name="usuario_telefono" required>
-            </li>
-
-            <li>
-                <button type="submit" class="button is-danger"> Envíar dato</button>
-            </li>
-        </ul>
-    </form> -->
-
 
 </body>
 
-
 <footer>
 
+    <script src="./index.js">
+        for (i = 2; i <= longitud; i++) {
+            document.getElementById('id' + i + '').style.top = '' + conta + 'px';
+            conta = conta + 15;
+        }
+    </script>
+
 </footer>
+
 
 </html>

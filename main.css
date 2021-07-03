@@ -3,7 +3,8 @@
 }
 
 .row-custom {
-    top: 500px !important;
+    top: 10px !important;
     width: 90%;
+    height: 90% !important;
     left: 5%;
 }
