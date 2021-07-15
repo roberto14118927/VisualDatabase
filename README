@@ -17,4 +17,8 @@ Primer requerimeinto
 
 Subir a repositorio pasos
 1.- git init
-1.- touch .gitignore
+2.- touch .gitignore
+3.- git add .
+4.- git commit -m "comentario"
+5.- git remote add origin "url nuevo repo"
+6.- git push -u origin master
