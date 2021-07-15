@@ -19,45 +19,33 @@
                 <div class="columns">
                     <div class="column">
 
-                        <div id="renderHtml">
+                        <!-- <div id="renderHtml">
                             
-                        </div>
+                        </div> -->
 
-                        <!-- <input class="input-custom input is-primary" id="id1" type="text" placeholder="Primary input">
-
-                        <input class="input-custom input is-primary" id="id2" type="text" placeholder="Primary input">
-
-                        <input class="input-custom input is-primary" id="id3" type="text" placeholder="Primary input">
-
-                        <input class="input-custom input is-primary" id="id4" type="text" placeholder="Primary input">
-
-                        <input class="input-custom input is-primary" id="id5" type="text" placeholder="Primary input">
-
-                        <input class="input-custom input is-primary" id="id6" type="text" placeholder="Primary input"> -->
-
-                        <button class="button is-primary" id="boton1" style="width: 100% !important; "
-                            onclick="sendData(); ">Primary</button>
+                        <button class="button is-primary" style="width: 100% !important; "
+                            onclick="sendParams(); ">Conectar</button>
 
 
                     </div>
                     <div class="column">
-                        <input class="input-custom input is-primary" type="text" placeholder="Primary input">
+                        <input id="host" class="input-custom input is-primary" type="text" placeholder="Host">
                         <br>
                         <br>
-                        <input class="input-custom input is-primary" type="text" placeholder="Primary input">
+                        <input id=user class="input-custom input is-primary" type="text" placeholder="User">
+                        <br>
+                        <br>
+                        <input id="password" class="input-custom input is-primary" type="text" placeholder="Password">
+                        <br>
+                        <br>
+                        <input id=database class="input-custom input is-primary" type="text" placeholder="Database">
                     </div>
-                    <div class="column">
-                        <input class="input-custom input is-primary" type="text" placeholder="Primary input">
-                        <br>
-                        <br>
-                        <input class="input-custom input is-primary" type="text" placeholder="Primary input">
-                    </div>
-                    <div class="column">
-                        <input class="input-custom input is-primary" type="text" placeholder="Primary input">
-                        <br>
-                        <br>
-                        <input class="input-custom input is-primary" type="text" placeholder="Primary input">
-                    </div>
+
+                    <br>
+                    <br>
+                    <textarea name="" id="txtData" cols="30" rows="10">
+
+                    </textarea>
 
                 </div>
             </div>
@@ -69,13 +57,14 @@
 </body>
 
 <footer>
-
+    <script src="./main.js"></script>
     <script src="./index.js">
         for (i = 2; i <= longitud; i++) {
             document.getElementById('id' + i + '').style.top = '' + conta + 'px';
             conta = conta + 15;
         }
     </script>
+
 
 </footer>
 
