@@ -22,3 +22,8 @@ Subir a repositorio pasos
 4.- git commit -m "comentario"
 5.- git remote add origin "url nuevo repo"
 6.- git push -u origin master
+
+Segunda Vuelta
+1.- git add .
+2.- git commit -m "comentario"
+3.- git push origin master
